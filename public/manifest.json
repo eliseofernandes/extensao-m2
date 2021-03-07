@@ -1,0 +1,19 @@
+{
+  "name": "M2 Digital",
+  "description": "M2 Digital - CRM",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_popup": "index.html",
+    "default_title": "M2 Digital"
+  },    
+  "permissions": [
+    "activeTab",
+    "background",
+    "http://*/*",
+    "https://*/*",
+    "declarativeContent"
+  ]
+
+}
